@@ -5,6 +5,7 @@ proxy-groups:
   disable-udp: false
   proxies:
   - BESTPING
+  - LOADBALANCE
   use:
   - GIT
   url: http://www.gstatic.com/generate_204
