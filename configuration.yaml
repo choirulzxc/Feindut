@@ -8,6 +8,7 @@ proxy-groups:
   - LOADBALANCE
   use:
   - GIT
+  - GIT2
   url: http://www.gstatic.com/generate_204
   interval: 60
 - name: BESTPING
@@ -22,6 +23,7 @@ proxy-groups:
   disable-udp: false
   use:
   - GIT
+  - GIT2
   strategy: round-robin
   url: http://www.gstatic.com/generate_204
   interval: 60
@@ -29,6 +31,15 @@ proxy-providers:
   GIT:
     type: http
     url: "https://raw.githubusercontent.com/choirulzxc/Feindut/refs/heads/main/aio1"
+    path: "./proxy_provider/AKUN-GIT.yaml"
+    interval: 60
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 60
+  GIT2:
+    type: http
+    url: "https://raw.githubusercontent.com/choirulzxc/Feindut/refs/heads/main/aio2"
     path: "./proxy_provider/AKUN-GIT.yaml"
     interval: 60
     health-check:
