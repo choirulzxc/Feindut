@@ -16,6 +16,7 @@ proxy-groups:
   disable-udp: false
   use:
   - GIT
+  - GIT2
   url: http://www.gstatic.com/generate_204
   interval: 60
 - name: LOADBALANCE
@@ -40,7 +41,7 @@ proxy-providers:
   GIT2:
     type: http
     url: "https://raw.githubusercontent.com/choirulzxc/Feindut/refs/heads/main/aio2"
-    path: "./proxy_provider/AKUN-GIT.yaml"
+    path: "./proxy_provider/AKUN-GIT2.yaml"
     interval: 60
     health-check:
       enable: true
