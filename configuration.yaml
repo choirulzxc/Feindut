@@ -8,23 +8,31 @@ proxy-groups:
   use:
   - GIT
   url: http://www.gstatic.com/generate_204
-  interval: '120'
+  interval: 60
 - name: BESTPING
   type: url-test
   disable-udp: false
   use:
   - GIT
   url: http://www.gstatic.com/generate_204
-  interval: '300'
+  interval: 60
+- name: LOADBALANCE
+  type: load-balance
+  disable-udp: false
+  use:
+  - GIT
+  strategy: round-robin
+  url: http://www.gstatic.com/generate_204
+  interval: 60
 proxy-providers:
   GIT:
     type: http
     url: "https://raw.githubusercontent.com/choirulzxc/Feindut/refs/heads/main/aio1"
     path: "./proxy_provider/AKUN-GIT.yaml"
-    interval: 300
+    interval: 60
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
-      interval: 300
+      interval: 60
 rules:
   - MATCH,GLOBAL
