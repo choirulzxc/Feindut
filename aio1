@@ -1,0 +1,27 @@
+proxies:
+  - name: AIO 1
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: e6213e50-8243-405c-b5b6-c3a0b1823e36
+    skip-cert-verify: true
+    sni: aio.leunca.us.kg
+    network: ws
+    ws-opts:
+      path: /103.133.223.52-2096
+      headers:
+        Host: aio.leunca.us.kg
+    udp: true
+  - name: AIO 2
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: bf6ffdb3-2e1f-4840-ae0e-618b5a6f23bc
+    skip-cert-verify: true
+    sni: aio.leunca.us.kg
+    network: ws
+    ws-opts:
+      path: /47.74.254.191-8900
+      headers:
+        Host: aio.leunca.us.kg
+    udp: true
