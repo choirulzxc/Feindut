@@ -12,29 +12,3 @@ proxies:
       headers:
         Host: aio.leunca.us.kg
     udp: true
-  - name: AIO 2
-    server: quiz.vidio.com
-    port: 443
-    type: trojan
-    password: bf6ffdb3-2e1f-4840-ae0e-618b5a6f23bc
-    skip-cert-verify: true
-    sni: aio.leunca.us.kg
-    network: ws
-    ws-opts:
-      path: /47.74.254.191-8900
-      headers:
-        Host: aio.leunca.us.kg
-    udp: true
-  - name: AIO 3
-    server: quiz.vidio.com
-    port: 443
-    type: trojan
-    password: d380ec04-54e7-4e96-8ad7-d8c74af377d6
-    skip-cert-verify: true
-    sni: nuclear.us.kg
-    network: ws
-    ws-opts:
-      path: /128.199.171.100:2053
-      headers:
-        Host: nuclear.us.kg
-    udp: true
