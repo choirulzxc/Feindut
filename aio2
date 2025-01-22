@@ -1,14 +1,14 @@
 proxies:
-  - name: AIO 4
+  - name: SG DO Leunca
     server: quiz.vidio.com
     port: 443
     type: trojan
-    password: d380ec04-54e7-4e96-8ad7-d8c74af377d6
+    password: 2f19ff74-27fa-4763-8e11-7dfa7b109fc0
     skip-cert-verify: true
-    sni: nuclear.us.kg
+    sni: aio.leunca.us.kg
     network: ws
     ws-opts:
-      path: /128.199.171.100:2053
+      path: /178.128.80.43-443
       headers:
-        Host: nuclear.us.kg
+        Host: aio.leunca.us.kg
     udp: true
