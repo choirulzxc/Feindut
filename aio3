@@ -1,14 +1,14 @@
 proxies:
-  - name: AIO 3
+  - name: SG DO VPNSTORE
     server: quiz.vidio.com
     port: 443
     type: trojan
-    password: d380ec04-54e7-4e96-8ad7-d8c74af377d6
+    password: 3ecf3cb6-36d8-4b40-8056-50ce21c3f020
     skip-cert-verify: true
-    sni: nuclear.us.kg
+    sni: vip.wilcardvpn.my.id
     network: ws
     ws-opts:
-      path: /104.248.145.216:443
+      path: /SG16
       headers:
-        Host: nuclear.us.kg
+        Host: vip.wilcardvpn.my.id
     udp: true
