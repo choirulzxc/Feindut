@@ -43,9 +43,9 @@ dns:
   fake-ip-filter:
     - '*.lan'
   nameserver:
-    - google
-    - 8.8.8.8
-    - 1.0.0.1
+	- google
+	- 8.8.8.8
+	- 1.0.0.1
 	
 proxies:
 proxy-groups:
