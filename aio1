@@ -2,7 +2,7 @@ proxies:
   - name: SG DO 1
     server: quiz.vidio.com
     port: 443
-    type: vless
+    type: trojan
     password: a0e7404b-1abd-4800-b17a-a57eda38d1b9
     skip-cert-verify: true
     sni: nuclear.us.kg
