@@ -1,0 +1,14 @@
+proxies:
+  - name: Towes-1
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: 477c5c8b-fce9-406f-b3b6-746de648837d
+    skip-cert-verify: true
+    sni: aio.leunca.us.kg
+    network: ws
+    ws-opts:
+      path: /168.138.166.213-10500
+      headers:
+        Host: aio.leunca.us.kg
+    udp: true
