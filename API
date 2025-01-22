@@ -28,7 +28,7 @@ proxy-groups:
 proxy-providers:
   GIT:
     type: http
-    url: "https://prod-test.jdevcloud.com/api/vless?format=clash-provider&cc=SG,ID&limit=6"
+    url: "https://sub.kominfo.us.kg/sub/singbox?type=vless&bug=quiz.int.vidio.com&wildcard=true&tls=false&country=sg&limit=5"
     path: "./proxy_provider/AKUN-GIT.yaml"
     interval: 60
     health-check:
