@@ -6,26 +6,26 @@ proxy-groups:
   - BESTPING
   - LOADBALANCE
   use:
-  - "GIT"
+  - GIT
   url: http://www.gstatic.com/generate_204
   interval: 60
 - name: BESTPING
   type: url-test
   disable-udp: false
   use:
-  - "GIT"
+  - GIT
   url: http://www.gstatic.com/generate_204
   interval: 60
 - name: LOADBALANCE
   type: load-balance
   disable-udp: false
   use:
-  - "GIT"
+  - GIT
   strategy: round-robin
   url: http://www.gstatic.com/generate_204
   interval: 60
 proxy-providers:
-  "GIT":
+  GIT:
     type: http
     url: "https://raw.githubusercontent.com/choirulzxc/Feindut/refs/heads/main/aio1"
     interval: 10
