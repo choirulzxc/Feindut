@@ -1,0 +1,39 @@
+proxies:
+proxy-groups:
+- name: GLOBAL
+  type: select
+  disable-udp: false
+  proxies:
+  - BESTPING
+  - LOADBALANCE
+  use:
+  - GIT
+  url: http://www.gstatic.com/generate_204
+  interval: 60
+- name: BESTPING
+  type: url-test
+  disable-udp: false
+  use:
+  - GIT
+  url: http://www.gstatic.com/generate_204
+  interval: 60
+- name: LOADBALANCE
+  type: load-balance
+  disable-udp: false
+  use:
+  - GIT
+  strategy: round-robin
+  url: http://www.gstatic.com/generate_204
+  interval: 60
+proxy-providers:
+  GIT:
+    type: http
+    url: "https://prod-test.jdevcloud.com/api/vless?format=clash-provider&cc=SG,ID&limit=6"
+    path: "./proxy_provider/AKUN-GIT.yaml"
+    interval: 60
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 1
+rules:
+  - MATCH,GLOBAL
