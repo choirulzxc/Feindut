@@ -19,8 +19,6 @@ proxy-groups:
       - "6 🇮🇩 ID PT Cloud Teknologi Nusantara NTLS"
       - "7 🇮🇩 ID Akamai Connected Cloud NTLS"
       - "8 🇮🇩 ID CV. Rumahweb Indonesia NTLS"
-      - "9 🇮🇩 ID Alibaba (US) Technology Co."
-      - "10 🇮🇩 ID Google LLC NTLS"
     type: url-test
 
   - name: Selector
@@ -34,8 +32,6 @@ proxy-groups:
       - "6 🇮🇩 ID PT Cloud Teknologi Nusantara NTLS"
       - "7 🇮🇩 ID Akamai Connected Cloud NTLS"
       - "8 🇮🇩 ID CV. Rumahweb Indonesia NTLS"
-      - "9 🇮🇩 ID Alibaba (US) Technology Co."
-      - "10 🇮🇩 ID Google LLC NTLS"
     type: select
 
 rules:
