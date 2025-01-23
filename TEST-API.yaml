@@ -1,20 +1,20 @@
 allow-lan: true
 bind-address: '*'
 dns:
-    default-nameserver:
-        - 8.8.8.8
-        - 1.1.1.1
-    enable: true
-    enhanced-mode: redir-host
-    fallback:
-        - https://1.1.1.1/dns-query
-        - 8.8.8.8
-        - 1.1.1.1
-    ipv6: false
-    listen: 0.0.0.0:7874
-    nameserver:
-        - https://8.8.8.8/dns-query
-        - https://8.8.4.4/dns-query
+  default-nameserver:
+    - 8.8.8.8
+    - 1.1.1.1
+  enable: true
+  enhanced-mode: redir-host
+  fallback:
+    - https://1.1.1.1/dns-query
+    - 8.8.8.8
+    - 1.1.1.1
+  ipv6: false
+  listen: 0.0.0.0:7874
+  nameserver:
+    - https://8.8.8.8/dns-query
+    - https://8.8.4.4/dns-query
 external-controller: 0.0.0.0:9090
 ipv6: false
 log-level: silent
@@ -22,194 +22,74 @@ mixed-port: 7893
 mode: rule
 port: 7890
 profile:
-    store-selected: true
+  store-selected: true
 proxies:
-    - name: "1 🇮🇩 ID Google LLC NTLS"
-      network: ws
-      port: "80"
-      server: nuclear.us.kg
-      type: vless
-      udp: true
-      uuid: daaa81ce-38c3-4e23-aae8-5b8da117f5a0
-      ws-opts:
-        headers:
-            Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /35.219.15.90:443
-      xudp: true
-    - name: "2 🇮🇩 ID PT Cloud Teknologi Nusantara NTLS"
-      network: ws
-      port: "80"
-      server: nuclear.us.kg
-      type: vless
-      udp: true
-      uuid: daaa81ce-38c3-4e23-aae8-5b8da117f5a0
-      ws-opts:
-        headers:
-            Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
-        path: /103.133.223.51:2096
-      xudp: true
-    - name: "3 🇮🇩 ID Akamai Connected Cloud NTLS"
-      network: ws
-      port: "80"
-      server: nuclear.us.kg
-      type: vless
-      udp: true
-      uuid: daaa81ce-38c3-4e23-aae8-5b8da117f5a0
-      ws-opts:
-        headers:
-            Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-        path: /172.232.239.249:587
-      xudp: true
-    - name: "4 🇮🇩 ID CV. Rumahweb Indonesia NTLS"
-      network: ws
-      port: "80"
-      server: nuclear.us.kg
-      type: vless
-      udp: true
-      uuid: daaa81ce-38c3-4e23-aae8-5b8da117f5a0
-      ws-opts:
-        headers:
-            Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
-        path: /203.194.112.119:2053
-      xudp: true
-    - name: "5 🇮🇩 ID Amazon.com"
-      network: ws
-      port: "80"
-      server: nuclear.us.kg
-      type: vless
-      udp: true
-      uuid: daaa81ce-38c3-4e23-aae8-5b8da117f5a0
-      ws-opts:
-        headers:
-            Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
-        path: /43.218.77.16:1443
-      xudp: true
-    - name: "6 🇮🇩 ID Akamai Connected Cloud NTLS"
-      network: ws
-      port: "80"
-      server: nuclear.us.kg
-      type: vless
-      udp: true
-      uuid: daaa81ce-38c3-4e23-aae8-5b8da117f5a0
-      ws-opts:
-        headers:
-            Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-        path: /172.232.231.24:587
-      xudp: true
-    - name: "7 🇮🇩 ID Alibaba (US) Technology Co."
-      network: ws
-      port: "80"
-      server: nuclear.us.kg
-      type: vless
-      udp: true
-      uuid: daaa81ce-38c3-4e23-aae8-5b8da117f5a0
-      ws-opts:
-        headers:
-            Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17 (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-        path: /8.215.196.18:587
-      xudp: true
-    - name: "8 🇮🇩 ID Akamai Connected Cloud NTLS"
-      network: ws
-      port: "80"
-      server: nuclear.us.kg
-      type: vless
-      udp: true
-      uuid: daaa81ce-38c3-4e23-aae8-5b8da117f5a0
-      ws-opts:
-        headers:
-            Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /172.232.239.147:587
-      xudp: true
-    - name: "9 🇮🇩 ID Akamai Connected Cloud NTLS"
-      network: ws
-      port: "80"
-      server: nuclear.us.kg
-      type: vless
-      udp: true
-      uuid: daaa81ce-38c3-4e23-aae8-5b8da117f5a0
-      ws-opts:
-        headers:
-            Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-        path: /172.232.239.151:587
-      xudp: true
-    - name: "10 🇮🇩 ID Google LLC NTLS"
-      network: ws
-      port: "80"
-      server: nuclear.us.kg
-      type: vless
-      udp: true
-      uuid: daaa81ce-38c3-4e23-aae8-5b8da117f5a0
-      ws-opts:
-        headers:
-            Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /35.219.50.99:443
-      xudp: true
-    - client-fingerprint: chrome
-      name: Trojan UDP
-      network: ws
-      password: t.me/foolvpn
-      port: "443"
-      server: nuclear.us.kg
-      skip-cert-verify: false
-      sni: id1.foolvpn.me
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: id1.foolvpn.me
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.104 Safari/537.36
-        path: /trojan-udp
+  - name: "1 🇮🇩 ID Google LLC NTLS"
+    type: vless
+    server: nuclear.us.kg
+    port: 80
+    uuid: daaa81ce-38c3-4e23-aae8-5b8da117f5a0
+    network: ws
+    udp: true
+    ws-opts:
+      headers:
+        Host: nuclear.us.kg
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /35.219.15.90:443
+    xudp: true
+  - name: "2 🇮🇩 ID PT Cloud Teknologi Nusantara NTLS"
+    type: vless
+    server: nuclear.us.kg
+    port: 80
+    uuid: daaa81ce-38c3-4e23-aae8-5b8da117f5a0
+    network: ws
+    udp: true
+    ws-opts:
+      headers:
+        Host: nuclear.us.kg
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
+      path: /103.133.223.51:2096
+    xudp: true
+  - name: "3 🇮🇩 ID Akamai Connected Cloud NTLS"
+    type: vless
+    server: nuclear.us.kg
+    port: 80
+    uuid: daaa81ce-38c3-4e23-aae8-5b8da117f5a0
+    network: ws
+    udp: true
+    ws-opts:
+      headers:
+        Host: nuclear.us.kg
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: /172.232.239.249:587
+    xudp: true
+  # Tambahkan proxy lainnya di sini...
+
 proxy-groups:
-    - name: Tunnel
-      proxies:
-        - Url Test
-        - Selector
-      type: select
-    - interval: 300
-      name: Url Test
-      proxies:
-        - "1 🇮🇩 ID Google LLC NTLS"
-        - "2 🇮🇩 ID PT Cloud Teknologi Nusantara NTLS"
-        - "3 🇮🇩 ID Akamai Connected Cloud NTLS"
-        - "4 🇮🇩 ID CV. Rumahweb Indonesia NTLS"
-        - "5 🇮🇩 ID Amazon.com"
-        - "6 🇮🇩 ID Akamai Connected Cloud NTLS"
-        - "7 🇮🇩 ID Alibaba (US) Technology Co."
-        - "8 🇮🇩 ID Akamai Connected Cloud NTLS"
-        - "9 🇮🇩 ID Akamai Connected Cloud NTLS"
-        - "10 🇮🇩 ID Google LLC NTLS"
-      type: url-test
-    - interval: 300
-      name: Selector
-      proxies:
-        - "1 🇮🇩 ID Google LLC NTLS"
-        - "2 🇮🇩 ID PT Cloud Teknologi Nusantara NTLS"
-        - "3 🇮🇩 ID Akamai Connected Cloud NTLS"
-        - "4 🇮🇩 ID CV. Rumahweb Indonesia NTLS"
-        - "5 🇮🇩 ID Amazon.com"
-        - "6 🇮🇩 ID Akamai Connected Cloud NTLS"
-        - "7 🇮🇩 ID Alibaba (US) Technology Co."
-        - "8 🇮🇩 ID Akamai Connected Cloud NTLS"
-        - "9 🇮🇩 ID Akamai Connected Cloud NTLS"
-        - "10 🇮🇩 ID Google LLC NTLS"
-      type: select
+  - name: Tunnel
+    proxies:
+      - "1 🇮🇩 ID Google LLC NTLS"
+      - "2 🇮🇩 ID PT Cloud Teknologi Nusantara NTLS"
+      - "3 🇮🇩 ID Akamai Connected Cloud NTLS"
+    type: select
+  - name: Url Test
+    proxies:
+      - "1 🇮🇩 ID Google LLC NTLS"
+      - "2 🇮🇩 ID PT Cloud Teknologi Nusantara NTLS"
+    type: url-test
+  - interval: 300
+    name: Selector
+    proxies:
+      - "1 🇮🇩 ID Google LLC NTLS"
+      - "2 🇮🇩 ID PT Cloud Teknologi Nusantara NTLS"
+    type: select
 redir-port: 7892
 rules:
-    - AND,((NETWORK,UDP),(DST-PORT,123)),DIRECT
-    - AND,((NETWORK,UDP),(OR,((DST-PORT,443),(GEOSITE,youtube)))),REJECT
-    - GEOIP,PRIVATE,DIRECT,no-resolve
-    - NETWORK,UDP,Trojan UDP
-    - MATCH,Tunnel
+  - AND,((NETWORK,UDP),(DST-PORT,123)),DIRECT
+  - AND,((NETWORK,UDP),(OR,((DST-PORT,443),(GEOSITE,youtube)))),REJECT
+  - GEOIP,PRIVATE,DIRECT,no-resolve
+  - NETWORK,UDP,Trojan UDP
+  - MATCH,Tunnel
 secret: ""
 socks-port: 7891
 tproxy-port: 7895
