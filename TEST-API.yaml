@@ -5,20 +5,20 @@ allow-lan: false
 mode: Rule
 log-level: info
 proxies:
-  - name: "Trojan-Proxy"
+  - name: Trojan-Proxy
     type: trojan
-    server: "quiz.int.vidio.com"
+    server: quiz.int.vidio.com
     port: 443
-    password: "477c5c8b-fce9-406f-b3b6-746de648837d"
-    sni: "aio.leunca.us.kg"
+    password: 477c5c8b-fce9-406f-b3b6-746de648837d
+    sni: aio.leunca.us.kg
     alpn:
       - h2
       - http/1.1
-    cipher: "aes-128-gcm"
+    cipher: aes-128-gcm
     tls: true
     udp: true
     skip-cert-verify: false
-    server-name: "aio.leunca.us.kg"
+    server-name: aio.leunca.us.kg
 proxy-groups:
   - name: "Auto"
     type: select
