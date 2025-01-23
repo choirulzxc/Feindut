@@ -30,51 +30,51 @@ proxies:
       server: nuclear.us.kg
       type: trojan
       udp: true
-      password: e569e363-c01e-433d-b8a5-9aba159ee447
+      password: 9a279203-dc4d-426d-a995-40694ba426df
       ws-opts:
         headers:
             Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
         path: /43.133.145.156:53136
       xudp: true
-    - name: "2 🇮🇩 ID PT Herza Digital Indonesia NTLS"
+    - name: "2 🇮🇩 ID Google LLC NTLS"
       network: ws
       port: "80"
       server: nuclear.us.kg
       type: trojan
       udp: true
-      password: e569e363-c01e-433d-b8a5-9aba159ee447
+      password: 9a279203-dc4d-426d-a995-40694ba426df
       ws-opts:
         headers:
             Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36
-        path: /103.168.146.169:20132
-      xudp: true
-    - name: "3 🇮🇩 ID Google LLC NTLS"
-      network: ws
-      port: "80"
-      server: nuclear.us.kg
-      type: trojan
-      udp: true
-      password: e569e363-c01e-433d-b8a5-9aba159ee447
-      ws-opts:
-        headers:
-            Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
         path: /35.219.15.90:443
       xudp: true
-    - name: "4 🇮🇩 ID Akamai Connected Cloud NTLS"
+    - name: "3 🇮🇩 ID Akamai Connected Cloud NTLS"
       network: ws
       port: "80"
       server: nuclear.us.kg
       type: trojan
       udp: true
-      password: e569e363-c01e-433d-b8a5-9aba159ee447
+      password: 9a279203-dc4d-426d-a995-40694ba426df
       ws-opts:
         headers:
             Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
-        path: /172.232.231.24:587
+            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+        path: /172.232.239.151:587
+      xudp: true
+    - name: "4 🇮🇩 ID CV. Rumahweb Indonesia NTLS"
+      network: ws
+      port: "80"
+      server: nuclear.us.kg
+      type: trojan
+      udp: true
+      password: 9a279203-dc4d-426d-a995-40694ba426df
+      ws-opts:
+        headers:
+            Host: nuclear.us.kg
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.104 Safari/537.36
+        path: /203.194.112.119:2053
       xudp: true
     - name: "5 🇮🇩 ID PT Cloud Teknologi Nusantara NTLS"
       network: ws
@@ -82,38 +82,38 @@ proxies:
       server: nuclear.us.kg
       type: trojan
       udp: true
-      password: e569e363-c01e-433d-b8a5-9aba159ee447
+      password: 9a279203-dc4d-426d-a995-40694ba426df
       ws-opts:
         headers:
             Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
         path: /103.133.223.50:2096
       xudp: true
-    - name: "6 🇮🇩 ID PT Cloud Teknologi Nusantara NTLS"
+    - name: "6 🇮🇩 ID PT Herza Digital Indonesia NTLS"
       network: ws
       port: "80"
       server: nuclear.us.kg
       type: trojan
       udp: true
-      password: e569e363-c01e-433d-b8a5-9aba159ee447
+      password: 9a279203-dc4d-426d-a995-40694ba426df
       ws-opts:
         headers:
             Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36
-        path: /103.133.223.51:2096
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+        path: /103.168.146.169:20132
       xudp: true
-    - name: "7 🇮🇩 ID Akamai Connected Cloud NTLS"
+    - name: "7 🇮🇩 ID PT Cloud Teknologi Nusantara NTLS"
       network: ws
       port: "80"
       server: nuclear.us.kg
       type: trojan
       udp: true
-      password: e569e363-c01e-433d-b8a5-9aba159ee447
+      password: 9a279203-dc4d-426d-a995-40694ba426df
       ws-opts:
         headers:
             Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36
-        path: /172.232.239.151:587
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile Safari/537.36
+        path: /103.133.223.51:2096
       xudp: true
     - name: "8 🇮🇩 ID CV. Rumahweb Indonesia NTLS"
       network: ws
@@ -121,38 +121,38 @@ proxies:
       server: nuclear.us.kg
       type: trojan
       udp: true
-      password: e569e363-c01e-433d-b8a5-9aba159ee447
+      password: 9a279203-dc4d-426d-a995-40694ba426df
       ws-opts:
         headers:
             Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /203.194.112.119:2053
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+        path: /203.194.112.119:8443
       xudp: true
-    - name: "9 🇮🇩 ID Alibaba (US) Technology Co."
+    - name: "9 🇮🇩 ID Akamai Connected Cloud NTLS"
       network: ws
       port: "80"
       server: nuclear.us.kg
       type: trojan
       udp: true
-      password: e569e363-c01e-433d-b8a5-9aba159ee447
+      password: 9a279203-dc4d-426d-a995-40694ba426df
       ws-opts:
         headers:
             Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-        path: /8.215.196.18:587
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+        path: /172.232.239.249:587
       xudp: true
-    - name: "10 🇮🇩 ID Google LLC NTLS"
+    - name: "10 🇮🇩 ID Akamai Connected Cloud NTLS"
       network: ws
       port: "80"
       server: nuclear.us.kg
       type: trojan
       udp: true
-      password: e569e363-c01e-433d-b8a5-9aba159ee447
+      password: 9a279203-dc4d-426d-a995-40694ba426df
       ws-opts:
         headers:
             Host: nuclear.us.kg
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
-        path: /35.219.50.99:443
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /172.232.239.147:587
       xudp: true
     - client-fingerprint: chrome
       name: Trojan UDP
@@ -167,44 +167,43 @@ proxies:
       ws-opts:
         headers:
             Host: id1.foolvpn.me
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
         path: /trojan-udp
 proxy-groups:
-  - name: Tunnel
-    proxies:
-      - Url Test
-      - Selector
-    type: select
-
-  - name: Url Test
-    interval: 300  # Uji URL setiap 5 menit
-    proxies:
-      - "1 🇮🇩 ID Tencent Building"
-      - "2 🇮🇩 ID PT Herza Digital Indonesia NTLS"
-      - "3 🇮🇩 ID Google LLC NTLS"
-      - "4 🇮🇩 ID Akamai Connected Cloud NTLS"
-      - "5 🇮🇩 ID PT Cloud Teknologi Nusantara NTLS"
-      - "6 🇮🇩 ID PT Cloud Teknologi Nusantara NTLS"
-      - "7 🇮🇩 ID Akamai Connected Cloud NTLS"
-      - "8 🇮🇩 ID CV. Rumahweb Indonesia NTLS"
-      - "9 🇮🇩 ID Alibaba (US) Technology Co."
-      - "10 🇮🇩 ID Google LLC NTLS"
-    type: url-test
-
-  - name: Selector
-    interval: 300  # Uji setiap 5 menit
-    proxies:
-      - "1 🇮🇩 ID Tencent Building"
-      - "2 🇮🇩 ID PT Herza Digital Indonesia NTLS"
-      - "3 🇮🇩 ID Google LLC NTLS"
-      - "4 🇮🇩 ID Akamai Connected Cloud NTLS"
-      - "5 🇮🇩 ID PT Cloud Teknologi Nusantara NTLS"
-      - "6 🇮🇩 ID PT Cloud Teknologi Nusantara NTLS"
-      - "7 🇮🇩 ID Akamai Connected Cloud NTLS"
-      - "8 🇮🇩 ID CV. Rumahweb Indonesia NTLS"
-      - "9 🇮🇩 ID Alibaba (US) Technology Co."
-      - "10 🇮🇩 ID Google LLC NTLS"
-    type: select
+    - name: Tunnel
+      proxies:
+        - Url Test
+        - Selector
+      type: select
+      interval: 300
+    - name: Url Test
+      proxies:
+        - "1 🇮🇩 ID Tencent Building"
+        - "2 🇮🇩 ID Google LLC NTLS"
+        - "3 🇮🇩 ID Akamai Connected Cloud NTLS"
+        - "4 🇮🇩 ID CV. Rumahweb Indonesia NTLS"
+        - "5 🇮🇩 ID PT Cloud Teknologi Nusantara NTLS"
+        - "6 🇮🇩 ID PT Herza Digital Indonesia NTLS"
+        - "7 🇮🇩 ID PT Cloud Teknologi Nusantara NTLS"
+        - "8 🇮🇩 ID CV. Rumahweb Indonesia NTLS"
+        - "9 🇮🇩 ID Akamai Connected Cloud NTLS"
+        - "10 🇮🇩 ID Akamai Connected Cloud NTLS"
+      type: url-test
+      interval: 300
+    - name: Selector
+      proxies:
+        - "1 🇮🇩 ID Tencent Building"
+        - "2 🇮🇩 ID Google LLC NTLS"
+        - "3 🇮🇩 ID Akamai Connected Cloud NTLS"
+        - "4 🇮🇩 ID CV. Rumahweb Indonesia NTLS"
+        - "5 🇮🇩 ID PT Cloud Teknologi Nusantara NTLS"
+        - "6 🇮🇩 ID PT Herza Digital Indonesia NTLS"
+        - "7 🇮🇩 ID PT Cloud Teknologi Nusantara NTLS"
+        - "8 🇮🇩 ID CV. Rumahweb Indonesia NTLS"
+        - "9 🇮🇩 ID Akamai Connected Cloud NTLS"
+        - "10 🇮🇩 ID Akamai Connected Cloud NTLS"
+      type: select
+      interval: 300
 redir-port: 7892
 rules:
     - AND,((NETWORK,UDP),(DST-PORT,123)),DIRECT
