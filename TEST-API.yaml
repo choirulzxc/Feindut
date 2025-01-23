@@ -170,39 +170,41 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
         path: /trojan-udp
 proxy-groups:
-    - name: Tunnel
-      proxies:
-        - Url Test
-        - Selector
-      type: select
-    - interval: 300
-      name: Url Test
-      proxies:
-        - "1 🇮🇩 ID Tencent Building"
-        - "2 🇮🇩 ID PT Herza Digital Indonesia NTLS"
-        - "3 🇮🇩 ID Google LLC NTLS"
-        - "4 🇮🇩 ID Akamai Connected Cloud NTLS"
-        - "5 🇮🇩 ID PT Cloud Teknologi Nusantara NTLS"
-        - "6 🇮🇩 ID PT Cloud Teknologi Nusantara NTLS"
-        - "7 🇮🇩 ID Akamai Connected Cloud NTLS"
-        - "8 🇮🇩 ID CV. Rumahweb Indonesia NTLS"
-        - "9 🇮🇩 ID Alibaba (US) Technology Co."
-        - "10 🇮🇩 ID Google LLC NTLS"
-      type: url-test
-    - interval: 300
-      name: Selector
-      proxies:
-        - "1 🇮🇩 ID Tencent Building"
-        - "2 🇮🇩 ID PT Herza Digital Indonesia NTLS"
-        - "3 🇮🇩 ID Google LLC NTLS"
-        - "4 🇮🇩 ID Akamai Connected Cloud NTLS"
-        - "5 🇮🇩 ID PT Cloud Teknologi Nusantara NTLS"
-        - "6 🇮🇩 ID PT Cloud Teknologi Nusantara NTLS"
-        - "7 🇮🇩 ID Akamai Connected Cloud NTLS"
-        - "8 🇮🇩 ID CV. Rumahweb Indonesia NTLS"
-        - "9 🇮🇩 ID Alibaba (US) Technology Co."
-        - "10 🇮🇩 ID Google LLC NTLS"
-      type: select
+  - name: Tunnel
+    proxies:
+      - Url Test
+      - Selector
+    type: select
+
+  - name: Url Test
+    interval: 300  # Uji URL setiap 5 menit
+    proxies:
+      - "1 🇮🇩 ID Tencent Building"
+      - "2 🇮🇩 ID PT Herza Digital Indonesia NTLS"
+      - "3 🇮🇩 ID Google LLC NTLS"
+      - "4 🇮🇩 ID Akamai Connected Cloud NTLS"
+      - "5 🇮🇩 ID PT Cloud Teknologi Nusantara NTLS"
+      - "6 🇮🇩 ID PT Cloud Teknologi Nusantara NTLS"
+      - "7 🇮🇩 ID Akamai Connected Cloud NTLS"
+      - "8 🇮🇩 ID CV. Rumahweb Indonesia NTLS"
+      - "9 🇮🇩 ID Alibaba (US) Technology Co."
+      - "10 🇮🇩 ID Google LLC NTLS"
+    type: url-test
+
+  - name: Selector
+    interval: 300  # Uji setiap 5 menit
+    proxies:
+      - "1 🇮🇩 ID Tencent Building"
+      - "2 🇮🇩 ID PT Herza Digital Indonesia NTLS"
+      - "3 🇮🇩 ID Google LLC NTLS"
+      - "4 🇮🇩 ID Akamai Connected Cloud NTLS"
+      - "5 🇮🇩 ID PT Cloud Teknologi Nusantara NTLS"
+      - "6 🇮🇩 ID PT Cloud Teknologi Nusantara NTLS"
+      - "7 🇮🇩 ID Akamai Connected Cloud NTLS"
+      - "8 🇮🇩 ID CV. Rumahweb Indonesia NTLS"
+      - "9 🇮🇩 ID Alibaba (US) Technology Co."
+      - "10 🇮🇩 ID Google LLC NTLS"
+    type: select
 redir-port: 7892
 rules:
     - AND,((NETWORK,UDP),(DST-PORT,123)),DIRECT
