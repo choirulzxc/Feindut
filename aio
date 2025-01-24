@@ -1,0 +1,92 @@
+proxies:
+  - name: 🇸🇬 Oracle
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: 0ba539a1-563a-423e-a6ba-fc24a76782c6
+    skip-cert-verify: true
+    sni: aio.leunca.us.kg
+    network: ws
+    ws-opts:
+      path: /129.150.58.86-57621
+      headers:
+        Host: aio.leunca.us.kg
+    udp: true
+  - name: 🇸🇬 OVH
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: 0ba539a1-563a-423e-a6ba-fc24a76782c6
+    skip-cert-verify: true
+    sni: aio.leunca.us.kg
+    network: ws
+    ws-opts:
+      path: /51.79.158.126-443
+      headers:
+        Host: aio.leunca.us.kg
+    udp: true
+  - name: 🇸🇬 Cloudflare
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: 0ba539a1-563a-423e-a6ba-fc24a76782c6
+    skip-cert-verify: true
+    sni: aio.leunca.us.kg
+    network: ws
+    ws-opts:
+      path: /138.2.74.219-28616
+      headers:
+        Host: aio.leunca.us.kg
+    udp: true
+  - name: 🇸🇬 DO
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: 0ba539a1-563a-423e-a6ba-fc24a76782c6
+    skip-cert-verify: true
+    sni: aio.leunca.us.kg
+    network: ws
+    ws-opts:
+      path: /178.128.80.43-443
+      headers:
+        Host: aio.leunca.us.kg
+    udp: true
+  - name: 🇮🇩 Herza Digital
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: 74197e3c-8ce2-4215-96bd-18ea2fbd57d3
+    skip-cert-verify: true
+    sni: aio.leunca.us.kg
+    network: ws
+    ws-opts:
+      path: /103.168.146.169-20132
+      headers:
+        Host: aio.leunca.us.kg
+    udp: true
+  - name: 🇮🇩 CTN
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: 74197e3c-8ce2-4215-96bd-18ea2fbd57d3
+    skip-cert-verify: true
+    sni: aio.leunca.us.kg
+    network: ws
+    ws-opts:
+      path: /103.133.223.52-2096
+      headers:
+        Host: aio.leunca.us.kg
+    udp: true
+  - name: 🇮🇩 Google LLC
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: 74197e3c-8ce2-4215-96bd-18ea2fbd57d3
+    skip-cert-verify: true
+    sni: aio.leunca.us.kg
+    network: ws
+    ws-opts:
+      path: /35.219.50.99-443
+      headers:
+        Host: aio.leunca.us.kg
+    udp: true
