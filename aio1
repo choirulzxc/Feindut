@@ -1,6 +1,6 @@
 proxies:
 - name: cdewrt
-  server: 104.18.214.235
+  server: 104.18.213.235
   port: 443
   type: trojan
   password: 47872cd9-49b3-4192-8d40-4f8058795f18
