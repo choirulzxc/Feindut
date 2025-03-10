@@ -1,14 +1,14 @@
 proxies:
-  - name: SG DO 1
-    server: quiz.vidio.com
-    port: 443
-    type: trojan
-    password: a0e7404b-1abd-4800-b17a-a57eda38d1b9
-    skip-cert-verify: true
-    sni: nuclear.us.kg
-    network: ws
-    ws-opts:
-      path: /104.248.145.216:443
-      headers:
-        Host: nuclear.us.kg
-    udp: true
+- name: cdewrt
+  server: 104.18.214.235
+  port: 443
+  type: trojan
+  password: 47872cd9-49b3-4192-8d40-4f8058795f18
+  skip-cert-verify: true
+  sni: nadiavip5.vpnstore28.my.id
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: nadiavip5.vpnstore28.my.id
+  udp: true
